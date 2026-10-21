@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d15">
+  <title>Halloween párty | Pozvánka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#domu" aria-label="Halloween pozvánka – úvod"><span class="brand-icon">☠</span><span>Pozvánka</span></a>
+    <nav aria-label="Hlavní navigace">
+      <a href="#akce">O akci</a>
+      <a href="#program">Program</a>
+      <a href="#misto">Místo</a>
+      <a href="#rsvp">RSVP</a>
+    </nav>
+  </header>
+
+  <main id="domu">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Jsi srdečně zván/a na</p>
+        <h1 id="hero-title">Halloween <span>párty</span></h1>
+        <p class="intro">Přijď s námi oslavit nejstrašidelnější<br class="desktop-only"> večer v roce!</p>
+        <a class="button hero-button" href="#rsvp">Přijímám výzvu <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">✦ &nbsp; Čeká tě noc plná překvapení &nbsp; ✦</div>
+    </section>
+
+    <section class="details" id="akce" aria-label="Informace o akci">
+      <article class="detail-card">
+        <div class="detail-icon" aria-hidden="true">▦</div>
+        <h2>Kdy?</h2>
+        <p><strong>31. října</strong><br>od 18:00</p>
+      </article>
+      <article class="detail-card" id="misto">
+        <div class="detail-icon" aria-hidden="true">⌖</div>
+        <h2>Kde?</h2>
+        <p><strong>Kulturní dům</strong><br>U Lesa 12, Praha</p>
+      </article>
+      <article class="detail-card">
+        <div class="detail-icon" aria-hidden="true">♧</div>
+        <h2>Téma</h2>
+        <p><strong>Strašidelné kostýmy</strong><br>jsou vítané!</p>
+      </article>
+      <article class="detail-card" id="program">
+        <div class="detail-icon pumpkin" aria-hidden="true">🎃</div>
+        <h2>Co tě čeká?</h2>
+        <p><strong>Hry, hudba,</strong><br>občerstvení a spousta zábavy!</p>
+      </article>
+    </section>
+
+    <section class="rsvp" id="rsvp">
+      <p class="script-line">Přijď, bude to stát za to…</p>
+      <div class="divider-skull" aria-hidden="true"><span></span> ☠ <span></span></div>
+      <p class="rsvp-copy">Troufneš si na tuhle noc?</p>
+      <a class="button" href="mailto:organizator@example.com?subject=Halloween%20p%C3%A1rty%20-%20potvrzen%C3%AD%20%C3%BA%C4%8Dasti">Potvrď účast <span aria-hidden="true">→</span></a>
+      <p class="thanks">Těšíme se na tebe!</p>
+      <div class="heart" aria-hidden="true">♡</div>
+    </section>
+  </main>
+  <footer>Užij si strašidelnou noc <span aria-hidden="true">✦</span> a nezapomeň na kostým!</footer>
+</body>
+</html>
