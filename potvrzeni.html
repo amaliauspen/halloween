@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d15">
+  <title>Účast potvrzena | Halloween párty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .confirmation { min-height: calc(100vh - 130px); display: grid; place-items: center; padding: 60px 22px; text-align: center; background: radial-gradient(ellipse at 50% 42%, #32142d 0%, #19111e 44%, #100d15 78%); }
+    .confirmation-card { width: min(720px, 100%); padding: clamp(28px, 6vw, 64px); border: 1px solid rgba(255,106,26,.45); border-radius: 24px; background: rgba(12,9,16,.58); box-shadow: 0 20px 70px rgba(0,0,0,.25); }
+    .confirmation-icon { font-size: clamp(58px, 10vw, 90px); margin-bottom: 18px; }
+    .confirmation h1 { font-size: clamp(44px, 8vw, 86px); line-height: 1.05; }
+    .confirmation h1 span { display: block; margin-top: 12px; font-family: 'Caveat', cursive; color: var(--cream); font-size: clamp(36px, 6vw, 62px); text-transform: none; }
+    .confirmation p { max-width: 520px; margin: 24px auto; line-height: 1.8; color: var(--muted); font-size: 17px; }
+    .confirmation .button { margin-top: 12px; }
+    .confirmation .small-note { font-size: 13px; margin-bottom: 0; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Zpět na pozvánku"><span class="brand-icon">☠</span><span>Pozvánka</span></a>
+    <nav aria-label="Hlavní navigace"><a href="index.html">Zpět na pozvánku</a></nav>
+  </header>
+  <main class="confirmation">
+    <section class="confirmation-card">
+      <div class="confirmation-icon" aria-hidden="true">🎃</div>
+      <p class="eyebrow">Tvoje odpověď nás těší</p>
+      <h1>JDEŠ DO TOHO!<span>Uvidíme se na Halloween</span></h1>
+      <p>Paráda! Těšíme se na pořádně strašidelný večer plný her, hudby a zábavy. Nezapomeň na svůj nejděsivější kostým!</p>
+      <div class="divider-skull" aria-hidden="true"><span></span> ☠ <span></span></div>
+      <p><strong style="color: var(--cream)">31. října · od 18:00</strong><br>Kulturní dům, U Lesa 12, Praha</p>
+      <a class="button" href="index.html">Zpět na pozvánku <span aria-hidden="true">↗</span></a>
+      <p class="small-note">Tohle je vizuální potvrzovací stránka — odpověď se nikam neodesílá.</p>
+    </section>
+  </main>
+  <footer>Užij si strašidelnou noc <span aria-hidden="true">✦</span> a nezapomeň na kostým!</footer>
+</body>
+</html>
